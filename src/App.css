@@ -27,6 +27,324 @@
 .App-link {
   color: #61dafb;
 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+header {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+section {
+  width: 30%;
+}
+
+h2 {
+  border-bottom: 2px solid #343a40;
+  padding-bottom: 0.5rem;
+}
+
+.restaurant-list, .menu-items, .cart-items {
+  margin-top: 1rem;
+}
+
+.restaurant-item, .menu-item, .cart-item {
+  border: 1px solid #343a40;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.restaurant-item:hover, .menu-item:hover, .cart-item:hover {
+  background-color: #e9ecef;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #343a40;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #343a40;
+  color: white;
+  padding: 1rem;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.header-buttons .btn {
+  margin-left: 1rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+section {
+  width: 30%;
+}
+
+h2 {
+  border-bottom: 2px solid #343a40;
+  padding-bottom: 0.5rem;
+}
+
+.restaurant-list, .menu-items, .cart-items {
+  margin-top: 1rem;
+}
+
+.restaurant-item, .menu-item, .cart-item {
+  border: 1px solid #343a40;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.restaurant-item:hover, .menu-item:hover, .cart-item:hover {
+  background-color: #e9ecef;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #343a40;
+}
+
+.total-price {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: right;
+}
+/* Example styles for images */
+.restaurant-item {
+  background-size: cover;
+  background-position: center;
+  height: 200px; /* Adjust height as necessary */
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.restaurant-name {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 0.5rem;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.menu-item-image, .cart-item-image {
+  width: 50px; /* Adjust size as necessary */
+  height: 50px; /* Adjust size as necessary */
+  margin-right: 1rem;
+  object-fit: cover;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+/* Example styles for images */
+.restaurant-item {
+  background-size: cover;
+  background-position: center;
+  height: 200px; /* Adjust height as necessary */
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.restaurant-name {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 0.5rem;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.menu-item-image, .cart-item-image {
+  width: 50px; /* Adjust size as necessary */
+  height: 50px; /* Adjust size as necessary */
+  margin-right: 1rem;
+  object-fit: cover;
+}.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+.z{
+  border-top: #000000;
+}
+
+.logo {
+  font-size: 1.5em;
+  color: #343a40;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-custom {
+  padding: 5px 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  color: #343a40; /* Dark text color for better visibility */
+  background-color: #ffffff; /* Light background */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.btn-custom:hover {
+  background-color: #e2e6ea; /* Slightly darker on hover */
+  color: #000000; /* Darker text color on hover */
+}
+
+/* Login.css */
+
+/* Center the login form vertically and horizontally */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+/* Style for the login form */
+.login-form {
+  max-width: 400px;
+  padding: 50px;
+  background: #a8bac844;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Center text elements inside the form */
+.text-center {
+  text-align: center;
+}
+
+/* Style for form inputs and buttons */
+.form-control {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ced4da; /* Grey border */
+  border-radius: 4px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  border-color: #0056b3;
+}
+
+/* Alert message styling */
+.alert {
+  margin-top: 20px;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #f8d7da; /* Red alert background */
+  color: #721c24; /* Red alert text color */
+  border: 1px solid #f5c6cb; /* Red alert border color */
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.total-price {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+/* Additional styles for other components as needed */
+
+
+.total-price {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
+/* Additional styles for other components as needed */
+
+
+
+.total-price {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: right;
+}
+
 
 @keyframes App-logo-spin {
   from {
