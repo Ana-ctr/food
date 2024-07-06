@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom"; // If using React Router for navigation
 
-
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -16,8 +15,8 @@ const Login = () => {
     if (email === "user@example.com" && password === "password") {
       // Simulate successful login
       console.log("Login successful!");
-      // Redirect to dashboard or homepage
-      // Example: history.push('/dashboard');
+      // Redirect to another page
+      window.location.href = '/one';
     } else {
       // Display error message for incorrect credentials
       setError("Invalid email or password. Please try again.");

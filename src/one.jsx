@@ -124,7 +124,7 @@ function App1() {
     const totalPrice = cart.reduce((acc, item) => acc + item.price, 0);
 
     return (
-        <div className="App">
+        <div className="App g">
             <Header cartItemsCount={cart.length} />
             <main>
                 <section>
